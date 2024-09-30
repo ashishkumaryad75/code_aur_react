@@ -11,4 +11,6 @@
 
 ### 06 create react application for password generator using npm create vite@latest app.
 
+### 07 create react application for Currency converter using npm create vite@latest app.
+
 
