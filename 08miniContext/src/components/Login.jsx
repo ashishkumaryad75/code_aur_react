@@ -15,7 +15,7 @@ function Login() {
   return (
     <>
       <h2>Login</h2>
-      <form>
+      <form onSubmit={(e) => e.preventDefault()}>
         <input
           type="text"
           id="username"
@@ -23,6 +23,7 @@ function Login() {
           placeholder="username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
+          autoComplete="username"
         />
         <br />
         <input
@@ -32,8 +33,8 @@ function Login() {
           placeholder="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-           required
-                autoComplete="current-password"
+          required
+          autoComplete="current-password"
         />
         <br />
         <button type="submit" onClick={handleSubmit}>
