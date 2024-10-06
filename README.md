@@ -13,4 +13,8 @@
 
 ### 07 create react application for Currency converter using npm create vite@latest app.
 
+### 08 create react application for login and profile page using useContext and npm create vite@latest app.
+
+### 09 create react application for card and their detail with theme switcher and useContext using npm create vite@latest app.
+
 
